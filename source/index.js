@@ -1,5 +1,18 @@
 
+import "./style.css";
 
 
+import { initialize } from "./Home";
 
-console.log("it workssssdsdadfsfssdsf!!!");
+import { Menu } from "./Menu";
+
+
+const container = document.querySelector("#content");
+
+
+Menu(container);
+
+
+console.log(container);
+
+

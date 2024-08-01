@@ -1,0 +1,149 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url(./restaurantimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+header{
+    background: rgb(130, 40, 40);
+    padding: 0.5rem;
+}
+
+
+header nav{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav button{
+    padding: 15px 30px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    transition: background-color 0.5s;
+    border-radius: 7px;
+}
+
+nav button:hover{
+    border: 1px solid green;
+}
+
+
+#content{
+    width: max(40%, 550px);
+    margin: 3rem auto;
+    background: rgba(107, 59, 59, 0.9);
+    padding: 1.5rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.hometitle, .Menutitle{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+
+.description, .Hours, .location{
+    font-size: 20px;
+}
+
+
+
+.Hours p{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.Hours ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.location, .Hours, .description, .hometitle, .Menutitle{
+    border: 15px solid rgb(74,32,32);
+    border-radius: 35px;
+    padding: 1rem;
+}
+
+
+.location .special{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+nav .active{
+    background-color: #fff;
+}
+
+
+
+.Menucont{
+    width: max(50%, 400px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.group > p:nth-child(1){
+    border: 2px solid red;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    border: 15px solid rgb(74,32,32);
+    border-radius: 35px;
+    padding: 0.8rem;
+}
+
+
+.group div{
+    margin: 1rem 0;
+    border: 15px solid rgb(74,32,32);
+    padding: 0.8rem;
+    font-size: 25px;
+    border-radius: 35px;
+    line-height: 35px;
+}
+
+
+.group div > p:nth-child(1){
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
